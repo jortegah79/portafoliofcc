@@ -66,6 +66,7 @@
     }
     
     header h2 {
+        width: 100vw;
         padding-top: 70px;
         background-color: black;
         color: var(--grisclaro);
@@ -73,7 +74,7 @@
     }
     
     #projects {
-        width: 100%;
+        width: 100vw;
         background-color: black;
         display: flex;
         flex-direction: row;
@@ -97,6 +98,11 @@
         border: 10px solid var(--grisclaro);
     }
     
+    .project-tile-img:hover {
+        border: 10px solid #773333;
+        color: #773333;
+    }
+    
     .arriba {
         margin-top: 150px;
     }
@@ -110,16 +116,13 @@
         font-size: 22px;
         color: var(--gris);
     }
-    /*321313132131321321321321321321321313131321*/
-    /******************************************/
     
     #section-contacto {
         width: 100vw;
-        height: 70vh;
+        height: 80vh;
         background-color: var(--gris);
         display: flex;
         flex-direction: column;
-        width: 100%;
         align-items: center;
     }
     
@@ -143,9 +146,17 @@
     
     #footerr {
         width: 100vw;
-        height: 30vh;
+        height: 20vh;
         background-color: var(--gris);
         border-top: 5px solid red;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    
+    small {
+        color: #773333;
+        font-size: medium;
     }
     
     #contacto-h2 {
@@ -165,4 +176,13 @@
     
     .contacto-link img {
         width: 30px;
+    }
+    
+    .contacto-link {
+        transition-property: transform;
+        transition-duration: 0.5s;
+    }
+    
+    .contacto-link:hover {
+        transform: scale(1.2);
     }
