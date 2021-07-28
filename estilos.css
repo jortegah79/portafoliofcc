@@ -155,11 +155,14 @@
         color: #111111;
     }
     
-    #tel {
+    #tel,
+    #git,
+    #face,
+    #mail {
         display: flex;
         align-items: center;
     }
     
-    #tel img {
-        width: 20px;
+    .contacto-link img {
+        width: 30px;
     }
