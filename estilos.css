@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+:root {
+    --azul: #6d6dff;
+    --azuloscuro: #4a4dff;
+    --gris: #cccccc;
+    --grisclaro: #aaaaaa;
+    --violeta: #330077;
+}
+
+h1 {
+    font-size: 36px;
+    text-shadow: 3px 2px 10px red;
+}
+
+h2 {
+    font-size: 24px;
+    text-shadow: 3px 2px 8px red;
+}
+
+#navbar {
+    background-color: var(--gris);
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 2px 2px 12px 1px var(--grisclaro);
+}
+
+.navbar-enlace {
+    height: 100%;
+    display: inline-block;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    font-size: 1.4em;
+    color: ;
+    text-shadow: 1px 1px 2px var(--azul);
+}
+
+.navbar-enlace:hover {
+    background-color: var(--azul);
+    color: var(--gris);
+    text-shadow: 1px 1px 2px black;
+}
+
+#welcome-section {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--violeta);
+    color: var(--grisclaro);
+}
+
+#projects-div {
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.project-tile {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+#contacto-div {
+    width: 100vw;
+    height: 70vh;
+    background-color: yellow;
+}
+
+#footerr {
+    width: 100vw;
+    height: 30vh;
+    background-color: yellow;
+    border-top: 2px solid red;
+}
