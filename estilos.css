@@ -115,7 +115,7 @@
     
     #contacto {
         width: 100vw;
-        height: 800px;
+        height: 70vh;
         background-color: var(--gris);
     }
     
@@ -127,5 +127,20 @@
     }
     
     #contacto-h2 {
+        font-size: 40px;
+        text-decoration: underline;
+        padding-top: 50px;
         color: #111111;
+        text-align: center;
+    }
+    
+    #contacto-lista {
+        display: flex;
+        margin-top: 15%;
+        align-content: space-around;
+    }
+    
+    #tel {
+        list-style-image: url("https://image.flaticon.com/icons/png/128/901/901141.png");
+        width: 1px;
     }
