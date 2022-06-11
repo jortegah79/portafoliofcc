@@ -1,114 +1,96 @@
 <!doctype html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Portafolio</title>
-    <link href="estilos.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Portfolio de J.Ortega.</title>
+  <link crossorigin="anonymous"
+        href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css"
+        integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g=="
+        referrerpolicy="no-referrer"
+        rel="stylesheet" />
+  <link crossorigin="anonymous"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        rel="stylesheet" />
+  <link href="estilos.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-    <div id="main ">
-        <nav id="navbar">
-            <a class="navbar-enlace" href="#welcome-section">
-                Sobre mi
-            </a>
-            <a class="navbar-enlace" href="#title-projects">
-                Trabajos
-            </a>
-            <a class="navbar-enlace" href="#contacto">
-                Contacto
-            </a>
-        </nav>
-
-        <section id="welcome-section">
-            <h1>MI NOMBRE ES JUAN ORTEGA.</h1>
-            <h2>Y SOY DESARROLLADOR WEB</h2>
-        </section>
-
-
-        <header>
-            <H2 id="title-projects">TRABAJOS</H2>
+  <header class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <button class="hamburger mt-3" type="button">
+          <span class="hamburger-box"></span>
+          <span class="hamburger-inner"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <!--header acaba aqui-->
+  <main>
+    <article class="container">
+      <div class="row">
+        <header class="col-12">
+          <h1 class="text-center">
+            Mi nombre es
+            <br />
+            <span class="text-secondary">Juan Ortega</span>.
+          </h1>
         </header>
+        <figure class="col-12 text-center">
+          <img alt="foto de juan"
+               class="img-fluid"
+               id="fotoJuan"
+               src="/imagenes/juanFoto.jpg" />
+          <figcaption></figcaption>
+        </figure>
+        <blockquote class="col-12">
+          <p class="lead">
+            Soy un entusiasta de la informática y de la programación y
+            actualmente
+            estoy formandome en Desarrollo de Aplicaciones Web en el Institut
+            Obert de Catalunya.
+          </p>
+          <p class="lead">
+            Actualmente he cursado mi cuarto semestre y entro en el
+            momento de realizar la formación
+            en centros de trabajo.
+          </p>
+          <p class="lead">
+            Si bien, no dispongo de experiéncia en el campo profesional, soy
+            una persona proactiva, con
+            ganas de aprender, trabajador, y que gusta de enseñar a otros lo
+            que aprende, ya sea de modo autodidacta o
+            mediante la formación reglada.
+          </p>
+        </blockquote>
+      </div>
+    </article>
+  </main>
+  <footer class="container-fluid bg-secondary fixed-bottom">
+    <div class="row ">
+      <div class="col-12 mt-3">
+        <h4 class="text-light col-4 border-bottom">Contactame</h4>
+        <div class=" container-fluid row ">
+          <div class="col-2 col-md-4 ">
+            <ul>
+          <li><a href="https://www.linkedin.com/in/juan-ortega-20877620a/" target="_blank" noreferer nopener>Linkedin</a></li>
+          <li><a href="https://github.com/jortegah79" noreferer nopener target="_blank">Github</a></li>
+          </ul>
+          </div>
+          <div class="col-10 col-md-8">
+            <p class="text-light text-right">O puedes escribirme a mi correo:</p><p class="text-right"><a href="mailto:jortegah79@gmail.com"><span class="h4 text-warning">jortegah79@gmail.com</span></a></p>
+          </div>     
 
-        <section id="projects">
-
-
-            <figure class="project-tile arriba">
-                <div class="project-tile-div">
-                    <a href="https://jortegah79.github.io/tributoamunch/">
-                        <img class="project-tile-img" href="https://www.google.es/" src="https://raw.githubusercontent.com/jortegah79/portafoliofcc/main/imagenes/grito.png" alt="imagen1"></img>
-                    </a>
-                </div>
-                <figcaption class="project-tile-figcaption">Tributo a "El grito".</figcaption>
-
-            </figure>
-
-            </img>
-            <figure class="project-tile arriba">
-                <div class="project-tile-div">
-                    <a href="https://jortegah79.github.io/cuestionario/">
-                        <img class="project-tile-img" src="https://raw.githubusercontent.com/jortegah79/portafoliofcc/main/imagenes/cuestionario.png" alt="imagen2"></img>
-                </div>
-                <figcaption class="project-tile-figcaption">Cuestionario.</figcaption>
-                </a>
-            </figure>
-
-
-            <figure class="project-tile abajo">
-                <div class="project-tile-div">
-                    <a href="https://jortegah79.github.io/EmpresaWeb/">
-                        <img class=" project-tile-img " src="https://raw.githubusercontent.com/jortegah79/portafoliofcc/main/imagenes/empresa-web.png " alt="imagen3 "></img>
-                </div>
-                <figcaption class="project-tile-figcaption ">Web de empresa</figcaption>
-                </a>
-            </figure>
-
-
-            <figure class="project-tile abajo ">
-
-                <div class="project-tile-div">
-                    <a href="https://jortegah79.github.io/Bienvernidos_a_Java/">
-                        <img class="project-tile-img " src="https://raw.githubusercontent.com/jortegah79/portafoliofcc/main/imagenes/java.png " alt="imagen4 "></img>
-                </div>
-                <figcaption class="project-tile-figcaption ">Mini curso Java</figcaption>
-                </a>
-            </figure>
-
-        </section>
-        <section id="section-contacto">
-            <div id="contacto">
-                <h2 id="contacto-h2">Si quieres ponerte en contacto conmigo...</h2>
-
-                <ul id="contacto-lista">
-                    <li id="git">
-                        <a id="profile-link" class="contacto-link" href="https://github.com/jortegah79 " target="_blank"><img src="https://github.com/jortegah79/portafoliofcc/blob/main/imagenes/github.png?raw=true"> GitHub
-                        </a>
-                    </li>
-                    <li id="tel">
-                        <a class="contacto-link" href="tel:600000000"><img src="https://github.com/jortegah79/portafoliofcc/blob/main/imagenes/whats.png?raw=true">telefono</a>
-                    </li>
-                    <li id="face">
-                        <a class="contacto-link" href="https://facebook.com/freecodecamp"><img src="https://github.com/jortegah79/portafoliofcc/blob/main/imagenes/facebook.png?raw=true">Facebook</a>
-                    </li>
-                    <li id="mail">
-                        <a class="contacto-link" href="mailto:example@example.es"><img src="https://github.com/jortegah79/portafoliofcc/blob/main/imagenes/mail.png?raw=true">email</a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-
-        <div>
-            <footer id="footerr">
-                <small>Portafolio marca registrada in 7/2021</small>
-            </footer>
-        </div>
+        </div>        
+          
+        
+      </div>   
 
     </div>
 
+  </footer>
 </body>
-
 </html>
