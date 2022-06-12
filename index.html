@@ -29,68 +29,102 @@
     </div>
   </header>
   <!--header acaba aqui-->
-  <main class="pb-5">
-    <article class="container">
-      <div class="row">
-        <header class="col-12">
-          <h1 class="text-center">
-            Mi nombre es
-            <br />
-            <span class="text-secondary">Juan Ortega</span>.
-          </h1>
-        </header>
-        <figure class="col-12 text-center">
+  <main class="container">
+    <div class="row">
+      <!--Aqui va el título y mi presentación-->
+      <div class="col-12 col-md-8">
+        <div class="row">
+          <article class="col-12">
+            <header>
+              <h1 class="text-center">
+                Mi nombre es
+                <br class="d-md-none" />
+                <span class="text-secondary">Juan Ortega</span>.
+              </h1>
+            </header>
+          </article>
+          <article class="col-12 d-md-none text-center">
+            <figure class>
+              <img alt="foto de juan"
+                   class="img-fluid"
+                   id="fotoJuan"
+                   src="./imagenes/juanFoto.jpg" />
+              <figcaption></figcaption>
+            </figure>
+          </article>
+
+          <article class="col-12">
+            <p class="lead">
+              Soy un entusiasta de la informática y de la programación y
+              actualmente
+              estoy formandome en Desarrollo de Aplicaciones Web en el Institut
+              Obert de Catalunya.
+            </p>
+            <p class="lead">
+              Actualmente he cursado mi cuarto semestre y entro en el
+              momento de realizar la formación
+              en centros de trabajo.
+            </p>
+            <p class="lead">
+              Si bien, no dispongo de experiéncia en el campo profesional, soy
+              una persona proactiva, con
+              ganas de aprender, trabajador, y que gusta de enseñar a otros lo
+              que aprende, ya sea de modo autodidacta o
+              mediante la formación reglada.
+            </p>
+          </article>
+        </div>
+      </div>
+      <!--foto inferior-->
+      <div>
+        <figure class="d-none d-md-block col-12 text-center">
           <img alt="foto de juan"
                class="img-fluid"
                id="fotoJuan"
                src="./imagenes/juanFoto.jpg" />
           <figcaption></figcaption>
         </figure>
-        <blockquote class="col-12">
-          <p class="lead">
-            Soy un entusiasta de la informática y de la programación y
-            actualmente
-            estoy formandome en Desarrollo de Aplicaciones Web en el Institut
-            Obert de Catalunya.
-          </p>
-          <p class="lead">
-            Actualmente he cursado mi cuarto semestre y entro en el
-            momento de realizar la formación
-            en centros de trabajo.
-          </p>
-          <p class="lead">
-            Si bien, no dispongo de experiéncia en el campo profesional, soy
-            una persona proactiva, con
-            ganas de aprender, trabajador, y que gusta de enseñar a otros lo
-            que aprende, ya sea de modo autodidacta o
-            mediante la formación reglada.
-          </p>
-        </blockquote>
       </div>
-    </article>
+    </div>
   </main>
-  <footer class="container-fluid bg-secondary mt-5 ">
-    <div class="row ">
+  <footer class="container-fluid bg-secondary">
+    <div class="row">
       <div class="col-12 mt-3">
         <h4 class="text-light col-4 border-bottom">Contáctame</h4>
-        <div class=" container-fluid row ">
-          <div class="col-2 col-md-4 ">
+        <div class="container-fluid row">
+          <div class="col-2 col-md-4">
             <ul>
-          <li><a href="https://www.linkedin.com/in/juan-ortega-20877620a/" target="_blank" noreferer nopener>Linkedin</a></li>
-          <li><a href="https://github.com/jortegah79" noreferer nopener target="_blank">Github</a></li>
-          </ul>
+              <li>
+                <a href="https://www.linkedin.com/in/juan-ortega-20877620a/"
+                   nopener
+                   noreferrer
+                   target="_blank">
+                  Linkedin
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/jortegah79"
+                   nopener
+                   noreferrer
+                   target="_blank">
+                  Github
+                </a>
+              </li>
+            </ul>
           </div>
           <div class="col-10 col-md-8">
-            <p class="text-light text-right">O puedes escribirme a mi correo:</p><p class="text-right"><a href="mailto:jortegah79@gmail.com"><span class="h4 text-warning">jortegah79@gmail.com</span></a></p>
-          </div>     
-
-        </div>        
-          
-        
-      </div>   
-
+            <p class="text-light text-right">
+              O puedes escribirme a mi correo:
+            </p>
+            <p class="text-right">
+              <a href="mailto:jortegah79@gmail.com">
+                <span class="h4 text-warning">jortegah79@gmail.com</span>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-
   </footer>
 </body>
 </html>
