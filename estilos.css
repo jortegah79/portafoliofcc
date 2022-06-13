@@ -39,23 +39,19 @@ h1{
 }
 nav{
    position:fixed;
-  max-width: 400px;
+  max-width: 350px;
   width:100%;
   z-index:1;
    background:rgba(55,55,55,0.9);
-   transition:all 2s ease;
+   transition:all 0.5s ease;
    transform:translateX(-110%); 
    border:3px solid black; 
    
 }
-
 nav.abierto{
     transform:translatex(0);
 }
-ul{
-
-}  
-
+ 
 li{
     list-style: none;
 }
