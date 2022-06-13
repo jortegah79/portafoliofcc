@@ -65,39 +65,39 @@ div.valores{
     height:10px;
 }
 #leng1{
-    width:70%;
+    width:60%;
     height:10px;
     background:blue;
     
 }
 #leng2{
-    width:85%;
+    width:75%;
     height:10px;
     background:yellowgreen;
 }
 #leng3{
-    width:80%;
+    width:70%;
     height:10px;
     background:violet;
 }
 #leng4{
-    width:75%;
+    width:65%;
     height:10px;
     background:orange;
 }
 #leng5{
-    width:50%;
+    width:400%;
     height:10px;
     background:#555;
 }
 
 #leng6{
-    width:30%;
+    width:20%;
     height:10px;
     background:red;
 }
 #leng7{
-    width:45%;
+    width:35%;
     height:10px;
     background:#6699dd;
 }
