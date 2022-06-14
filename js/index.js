@@ -1,4 +1,4 @@
-import { lista } from "./datos.js";
+
 const d=document,
 $boton=d.getElementById("b-menu"),
 $menu=d.getElementById("menu"),
