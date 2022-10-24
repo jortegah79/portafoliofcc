@@ -67,13 +67,13 @@ div.valores{
 #leng1{
     width:60%;
     height:10px;
-    background:blue;
+    background:yellowgreen;
     
 }
 #leng2{
     width:75%;
     height:10px;
-    background:yellowgreen;
+    background:blue;
 }
 #leng3{
     width:60%;
@@ -99,12 +99,17 @@ div.valores{
 #leng7{
     width:20%;
     height:10px;
-    background:red;
+    background:#6699dd;
 }
 #leng8{
     width:35%;
     height:10px;
-    background:#6699dd;
+    background:yellow;
+}
+#leng9{
+    width:30%;
+    height:10px;
+    background:red;
 }
 
 footer{
