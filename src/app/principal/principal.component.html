@@ -1,0 +1,54 @@
+<div class="container-fluid " id="fondo-pantalla">
+  <img src="./../../assets/fondo.png" class="fondo">
+  <img src="./../../assets/juanFoto.jpg" class="imagen-juan">
+
+
+  <div class="row">
+    <div class="col-6 gap-5 p-5">
+      <img *ngFor="let tec of tecnologias" [src]="tec.url" class="col-5 tecnologia">
+    </div>
+
+
+
+    <div class="col-6 mt-5">
+      <h1>Mi nombre es Juan Ortega...</h1>
+      <h2 class="text-center me-5">y soy Desarrollador Web.</h2>
+
+      <div class="row container">
+
+        <div class="col-11 mt-5">
+          <p>Desde siempre me he sentido atraído por el mundo de la informática. Por esta razón, llegado el momento,
+            tomé la decisión de hacer un cambio, formandome en <span class="fw-bold">DAW</span> en el <span
+              class="fw-bold">IOC-Institut Obert de catalunya.</span></p>
+          <p class="mt-3">
+            Durante el grado, he ido aprendiendo acerca de bases de datos, Java, Spring mvc y Javascript entre otras
+            cosas, además de realizar las prácticas en mi actual empresa.
+          </p>
+          <p>
+            En este tiempo trabajando en mi empresa he adquirido un conocimiento práctico en PHP, MYSQL y aprendido
+            nuevas tecnologias como realizar servicios REST-API con PHP SLIM, pequeñas aplicaciones para movil con
+            flutter y con angular.
+          </p>
+        </div>
+      </div>
+      <h5 class="my-3">Estos son algunos de mis trabajos personales.</h5>
+      <div class="row">
+        <div class="col-5"><a href="https://jortegah79.github.io/mapsAPp/maps/fullscreen"><img  class="img-fluid"src="./../../assets/maps.png"></a></div>
+        </div>
+        <div class="row">
+          <div class=" col-3 "></div>
+        <div class="col-5"><a href="https://jortegah79.github.io/calculadora/"><img  class="img-fluid" src="./../../assets/calculadora.png"></a></div>
+        </div>
+        <div class="col-3"><a href="https://jortegah79.github.io/GifsApp/"><img  class="img-fluid" src="./../../assets/giffAPp.png"></a></div>
+      </div>
+      <div class="row mt-3">
+        <h5>Si quieres comunicarte conmigo o ver alguno de mis trabajos:</h5>
+       <a class="text-decoration-none col-3" href="https://github.com/jortegah79"><i style="font-size:50px"class="bi bi-github me-2">GitHub</i></a>
+       <a class="text-decoration-none col-3" href="jortegah79@gmail.com"><i style="font-size:50px"class="bi bi-envelope me-2">Gmail</i></a>
+       <a class="text-decoration-none col-3" href="https://www.linkedin.com/in/juanortegah/"><i style="font-size:50px" class="bi bi-linkedin me-2">LinkedIn</i></a>
+      </div>
+
+
+    </div>
+
+  </div>
