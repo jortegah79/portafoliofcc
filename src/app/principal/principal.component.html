@@ -3,8 +3,8 @@
   <img src="assets/juanFoto.jpg" class="imagen-juan">
 
 
-  <div class="m-auto container row">
-    <div class="col-4 gap-5 p-5">
+  <div class="m-auto container row ">
+    <div class="col-4 gap-5 p-5 ">
       <img *ngFor="let tec of tecnologias" [src]="tec.url" class="col-5 tecnologia">
     </div>
 
@@ -33,12 +33,12 @@
       </div>
     </div>
     <div class="row">
-      <h4 class="col-12 my-3">Estos son algunos de mis trabajos personales.</h4>
+      <h4 class="col-12 my-3 ms-5">Estos son algunos de mis trabajos personales.</h4>
 <div class="col-6" *ngFor="let prod of proyectos">
     <proyecto [proyecto]="prod"></proyecto>
 </div>
-      <div class="row mt-3 text-center">
-        <h5 class="mb-3">Si quieres comunicarte conmigo o ver alguno de mis trabajos:</h5>
+      <div class="row my-5 text-center">
+        <h4 class="mb-3 text-start ms-5">Si quieres comunicarte conmigo o ver alguno de mis trabajos:</h4>
        <a class="text-decoration-none col-4" href="https://github.com/jortegah79"><i style="font-size:50px"class="bi bi-github me-2">GitHub</i></a>
        <a class="text-decoration-none col-4" href="jortegah79@gmail.com"><i style="font-size:50px"class="bi bi-envelope me-2">Gmail</i></a>
        <a class="text-decoration-none col-4" href="https://www.linkedin.com/in/juanortegah/"><i style="font-size:50px" class="bi bi-linkedin me-2">LinkedIn</i></a>
