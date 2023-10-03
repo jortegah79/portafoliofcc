@@ -9,13 +9,13 @@ import { Proyecto } from './interfaces/proyecto.interface';
 export class PrincipalComponent {
 
  tecnologias:urlFile[]=[
-  {url:"./../../assets/php.png"},
-  {url:"./../../assets/angular.gif"},
-  {url:"./../../assets/phpslim.png"},
-  {url:"./../../assets/bootstrap.jpeg"},
-  {url:"./../../assets/typescript.png"},
-  {url:"./../../assets/java.png"},
-  {url:"./../../assets/github.png"},
+  {url:"assets/php.png"},
+  {url:"assets/angular.gif"},
+  {url:"assets/phpslim.png"},
+  {url:"assets/bootstrap.jpeg"},
+  {url:"assets/typescript.png"},
+  {url:"assets/java.png"},
+  {url:"assets/github.png"},
 ];
 proyectos:Proyecto[]=[
   {url:'https://jortegah79.github.io/mapsAPp',name:'Mapas',src:'assets/maps.png'},
