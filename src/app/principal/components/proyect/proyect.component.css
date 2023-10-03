@@ -1,0 +1,10 @@
+img {
+  aspect-ratio: 3/2;
+  width: 80%;
+  margin: auto;
+
+}
+figure{
+  text-align: center;
+  font-size: 1.3em;
+}
