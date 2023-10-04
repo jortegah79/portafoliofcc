@@ -1,49 +1,65 @@
+
 <div class="container-fluid " id="fondo-pantalla">
   <img src="assets/fondo.png" class="fondo">
-  <img src="assets/juanFoto.jpg" class="imagen-juan">
+  <img src="assets/juanFoto.jpg" class="d-none imagen-juan">
+
+  <div style="width:95%;">
+  <div class=" row">
+    <!--<div class="d-none d-lg-block col-11 col-lg-4 mt-3">
+      <img *ngFor="let tec of tecnologias" [src]="tec.url" class="col-1 col-md-5 tecnologia">
+    </div>-->
 
 
-  <div class="m-auto container row ">
-    <div class="col-4 gap-5 p-5 ">
-      <img *ngFor="let tec of tecnologias" [src]="tec.url" class="col-5 tecnologia">
+
+    <div class="mt-2 row ">
+      <h1 class="col-12">Mi nombre es Juan Ortega...</h1>
+      <h2 class="col-12 text-center">... y soy Desarrollador Web.</h2>
     </div>
+    <div class="row ">
 
-
-
-    <div class="col-8 mt-5">
-      <h1>Mi nombre es Juan Ortega...</h1>
-      <h2 class="text-center">... y soy Desarrollador Web.</h2>
-
-      <div class="row container">
-
-        <div class="col-11 mt-5">
-          <p>Desde siempre me he sentido atraído por el mundo de la informática. Por esta razón, llegado el momento,
-            tomé la decisión de hacer un cambio, formandome en <span class="fw-bold text-success">DAW</span> en el <span
-              class="fw-bold text-success">IOC-Institut Obert de catalunya.</span></p>
-          <p class="mt-3">
-            Durante el grado, he ido aprendiendo acerca de <span class="fw-bold text-info">bases de datos, Java, Spring mvc y Javascript </span> entre otras
-            cosas, además de realizar las prácticas en mi actual empresa.
-          </p>
-          <p class="mt-2">
-            En este tiempo trabajando en mi empresa he adquirido un conocimiento práctico en <span class="fw-bold"></span>PHP, MYSQL y aprendido
-            nuevas tecnologias como realizar servicios <span class="fw-bold text-info">REST-API con PHP SLIM</span>, pequeñas aplicaciones para movil con
-            <span class="fw-bold text-info">Flutter</span> y con <span class="fw-bold text-info">Angular.</span></p>
-
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <h4 class="col-12 my-3 ms-5">Estos son algunos de mis trabajos personales.</h4>
-<div class="col-6" *ngFor="let prod of proyectos">
-    <proyecto [proyecto]="prod"></proyecto>
-</div>
-      <div class="row my-5 text-center">
-        <h4 class="mb-3 text-start ms-5">Si quieres comunicarte conmigo o ver alguno de mis trabajos:</h4>
-       <a class="text-decoration-none col-4" href="https://github.com/jortegah79"><i style="font-size:50px"class="bi bi-github me-2">GitHub</i></a>
-       <a class="text-decoration-none col-4" href="jortegah79@gmail.com"><i style="font-size:50px"class="bi bi-envelope me-2">Gmail</i></a>
-       <a class="text-decoration-none col-4" href="https://www.linkedin.com/in/juanortegah/"><i style="font-size:50px" class="bi bi-linkedin me-2">LinkedIn</i></a>
-      </div>
+      <p class="col-12 mt-3 ">Desde siempre me he sentido atraído por el mundo de la informática. Por esta razón,
+        llegado el momento,
+        tomé la decisión de hacer un cambio, formandome en <span class="fw-bold text-success">DAW</span> en el <span
+          class="fw-bold text-success">IOC-Institut Obert de catalunya.</span></p>
+      <p class="col-12 mt-3">
+        Durante el grado, he ido aprendiendo acerca de <span class="fw-bold text-info">bases de datos, Java, Spring
+          mvc y Javascript </span> entre otras
+        cosas, además de realizar las prácticas en mi actual empresa.
+      </p>
+      <p class="col-12 mt-3">
+        En este tiempo trabajando en mi empresa he adquirido un conocimiento práctico en <span
+          class="fw-bold"></span>PHP, MYSQL y aprendido
+        nuevas tecnologias como realizar servicios <span class="fw-bold text-info">REST-API con PHP SLIM</span>,
+        pequeñas aplicaciones para movil con
+        <span class="fw-bold text-info">Flutter</span> y con <span class="fw-bold text-info">Angular.</span>
+      </p>
 
     </div>
-
   </div>
+
+
+
+  <div class="row my-3">
+
+    <img class="col-3 tecnologia" *ngFor="let tec of tecnologias" [src]="tec.url">
+  </div>
+
+  <div class="row">
+    <p class="col-12">Estos son algunos de mis trabajos personales.</p>
+    <div class="col-6" *ngFor="let prod of proyectos">
+      <proyecto [proyecto]="prod"></proyecto>
+    </div>
+  </div>
+  <div class="row my-5 text-center">
+    <p class="mb-3 text-start text-wrap">Si quieres comunicarte conmigo o ver alguno de mis trabajos:</p>
+    <a class="text-decoration-none col-4" href="https://github.com/jortegah79"><i style="font-size:30px"
+        class="bi bi-github me-2">GitHub</i></a>
+    <a class="text-decoration-none col-4" href="jortegah79@gmail.com"><i style="font-size:30px"
+        class="bi bi-envelope me-2">Gmail</i></a>
+    <a class="text-decoration-none col-4" href="https://www.linkedin.com/in/juanortegah/"><i style="font-size:30px"
+        class="bi bi-linkedin me-2">LinkedIn</i></a>
+  </div>
+</div>
+
+
+</div>
