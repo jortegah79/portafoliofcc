@@ -1,22 +1,17 @@
-
 <div class="container-fluid " id="fondo-pantalla">
   <img src="assets/fondo.png" class="fondo">
-  <img src="assets/juanFoto.jpg" class="d-none imagen-juan">
+  <img src="assets/juanFoto.jpg" class=" d-none d-md-block imagen-juan">
 
-  <div style="width:95%;">
-  <div class=" row">
-    <!--<div class="d-none d-lg-block col-11 col-lg-4 mt-3">
+
+  <div class="container-md m-auto row mt-2">
+    <div class="d-none d-lg-block col-md-4  mt-3">
       <img *ngFor="let tec of tecnologias" [src]="tec.url" class="col-1 col-md-5 tecnologia">
-    </div>-->
-
-
-
-    <div class="mt-2 row ">
-      <h1 class="col-12">Mi nombre es Juan Ortega...</h1>
-      <h2 class="col-12 text-center">... y soy Desarrollador Web.</h2>
     </div>
-    <div class="row ">
+    <div class="col-12 col-lg-7 ">
+      <h1 class=" px-2">Mi nombre es Juan Ortega...</h1>
+      <h2 class=" text-center ">... y soy Desarrollador Web.</h2>
 
+    <div class="col-12 row m-3">
       <p class="col-12 mt-3 ">Desde siempre me he sentido atraído por el mundo de la informática. Por esta razón,
         llegado el momento,
         tomé la decisión de hacer un cambio, formandome en <span class="fw-bold text-success">DAW</span> en el <span
@@ -41,25 +36,22 @@
 
   <div class="row my-3">
 
-    <img class="col-3 tecnologia" *ngFor="let tec of tecnologias" [src]="tec.url">
+    <img class="col-3 d-block d-md-none m-auto tecnologia" *ngFor="let tec of tecnologias" [src]="tec.url">
   </div>
 
   <div class="row">
-    <p class="col-12">Estos son algunos de mis trabajos personales.</p>
+    <p class="col-12 m-3">Estos son algunos de mis trabajos personales.</p>
     <div class="col-6" *ngFor="let prod of proyectos">
       <proyecto [proyecto]="prod"></proyecto>
     </div>
   </div>
-  <div class="row my-5 text-center">
+  <div class="row m-2 text-center">
     <p class="mb-3 text-start text-wrap">Si quieres comunicarte conmigo o ver alguno de mis trabajos:</p>
-    <a class="text-decoration-none col-4" href="https://github.com/jortegah79"><i style="font-size:30px"
+    <a class="text-decoration-none col-4" href="https://github.com/jortegah79"><i style="font-size:25px"
         class="bi bi-github me-2">GitHub</i></a>
-    <a class="text-decoration-none col-4" href="jortegah79@gmail.com"><i style="font-size:30px"
+    <a class="text-decoration-none col-4" href="jortegah79@gmail.com"><i style="font-size:25px"
         class="bi bi-envelope me-2">Gmail</i></a>
-    <a class="text-decoration-none col-4" href="https://www.linkedin.com/in/juanortegah/"><i style="font-size:30px"
+    <a class="text-decoration-none col-4" href="https://www.linkedin.com/in/juanortegah/"><i style="font-size:25px"
         class="bi bi-linkedin me-2">LinkedIn</i></a>
   </div>
-</div>
-
-
 </div>
