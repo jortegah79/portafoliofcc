@@ -2,17 +2,18 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { PrincipalRoutingModule } from './principal-routing.module';
-import { ProyectComponent } from './components/proyect/proyect.component';
+import { ComponentsModule } from '../components/components.module';
 
 
 
 @NgModule({
-  declarations: [
-
+  declarations: [  
+    
   ],
   imports: [
     CommonModule,
-    PrincipalRoutingModule
+    PrincipalRoutingModule,
+    ComponentsModule
   ]
 })
 export class PrincipalModule { }

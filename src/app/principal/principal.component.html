@@ -1,57 +1,68 @@
-<div class="container-fluid " id="fondo-pantalla">
-  <img src="assets/fondo.png" class="fondo">
-  <img src="assets/juanFoto.jpg" class=" d-none d-md-block imagen-juan">
-
-
-  <div class="container-md m-auto row mt-2">
-    <div class="d-none d-lg-block col-md-4  mt-3">
-      <img *ngFor="let tec of tecnologias" [src]="tec.url" class="col-1 col-md-5 tecnologia">
+<div class="bg-portfolio">
+  <div class="container  ">
+    <div class="row pt-5">
+      <div class="col-12 offset-md-3 col-md-6 ">
+        <title-component />
+      </div>
     </div>
-    <div class="col-12 col-lg-7 ">
-      <h1 class=" px-2">Mi nombre es Juan Ortega...</h1>
-      <h2 class=" text-center ">... y soy Desarrollador Web.</h2>
+
+    <div class="row my-5">
+      <div>
+
+      </div>
+    </div>
 
     <div class="col-12 row m-md-3">
-      <p class="col-12 mt-3 ">Desde siempre me he sentido atraído por el mundo de la informática. Por esta razón,
-        llegado el momento,
-        tomé la decisión de hacer un cambio, formandome en <span class="fw-bold text-success">DAW</span> en el <span
-          class="fw-bold text-success">IOC-Institut Obert de catalunya.</span></p>
-      <p class="col-12 mt-3">
-        Durante el grado, he ido aprendiendo acerca de <span class="fw-bold text-info">bases de datos, Java, Spring
-          mvc y Javascript </span> entre otras
-        cosas, además de realizar las prácticas en mi actual empresa.
-      </p>
-      <p class="col-12 mt-3">
-        En este tiempo trabajando en mi empresa he adquirido un conocimiento práctico en <span
-          class="fw-bold"></span>PHP, MYSQL y aprendido
-        nuevas tecnologias como realizar servicios <span class="fw-bold text-info">REST-API con PHP SLIM</span>,
-        pequeñas aplicaciones para movil con
-        <span class="fw-bold text-info">Flutter</span> y con <span class="fw-bold text-info">Angular.</span>
-      </p>
+
+      <texto-component title="{{title1}}" texto="{{texto1}}"></texto-component>
+      <texto-component class="mt-2" texto="{{texto2}}"></texto-component>
+      <texto-component texto="{{texto3}}"></texto-component>
+      <texto-component texto="{{texto4}}"></texto-component>
+      <texto-component class="mt-2" title="{{title2}}" texto="{{texto5}}"></texto-component>
+      <texto-component texto="{{texto6}}"></texto-component>
+      <texto-component texto="{{texto7}}"></texto-component>
 
     </div>
   </div>
+</div>
 
-
-
-  <div class="row my-3">
-
-    <img class="col-3 d-block d-md-none m-auto tecnologia" *ngFor="let tec of tecnologias" [src]="tec.url">
-  </div>
-
-  <div class="row">
-    <p class="col-12 m-3">Estos son algunos de mis trabajos personales.</p>
-    <div class="col-6" *ngFor="let prod of proyectos">
-      <proyecto [proyecto]="prod"></proyecto>
+<div class="p-3" id="fondo-pantalla2">
+  <div class="container my-5">
+    <div class="row gap-5">
+      <img class="d-block col-3  m-auto tecnologia" *ngFor="let tec of tecnologias" [src]="tec.url">
     </div>
   </div>
-  <div class="row m-2 text-center">
-    <p class="mb-3 text-start text-wrap">Si quieres comunicarte conmigo o ver alguno de mis trabajos:</p>
-    <a class="text-decoration-none col-4" href="https://github.com/jortegah79"><i style="font-size:25px"
-        class="bi bi-github me-2">GitHub</i></a>
-    <a class="text-decoration-none col-4" href="jortegah79@gmail.com"><i style="font-size:25px"
-        class="bi bi-envelope me-2">Gmail</i></a>
-    <a class="text-decoration-none col-4" href="https://www.linkedin.com/in/juanortegah/"><i style="font-size:25px"
-        class="bi bi-linkedin me-2">LinkedIn</i></a>
+</div>
+
+<div class="p-3" id="fondo-pantalla3">
+  <div class="container ">
+    <div class="row   ">
+      <h3 class="col-12 m-2">Estos son algunos de mis trabajos personales.</h3>
+      <div class="col-6 mt-4" *ngFor="let prod of proyectos">
+        <proyecto [proyecto]="prod"></proyecto>
+      </div>
+    </div>
+  </div>
+</div>
+<!--
+<div class="row">
+  <p class="col-12 m-3">Estos son algunos de mis trabajos personales.</p>
+  <div class="col-6" *ngFor="let prod of proyectos">
+    <proyecto [proyecto]="prod"></proyecto>
+  </div>
+</div>
+
+-->
+<div class="p-3" id="fondo-pantalla4">
+  <div class="container ">
+    <div class="row m-2 text-center">
+      <h4 class="mb-3 text-start text-wrap">Si quieres comunicarte conmigo o ver alguno de mis trabajos:</h4>
+      <a class="text-decoration-none text-light col-4" href="https://github.com/jortegah79"><i style="font-size:25px"
+          class="bi bi-github me-2">GitHub</i></a>
+      <a class="text-decoration-none text-light col-4" href="jortegah79@gmail.com"><i style="font-size:25px"
+          class="bi bi-envelope me-2">Gmail</i></a>
+      <a class="text-decoration-none text-light col-4" href="https://www.linkedin.com/in/juanortegah/"><i style="font-size:25px"
+          class="bi bi-linkedin me-2">LinkedIn</i></a>
+    </div>
   </div>
 </div>
