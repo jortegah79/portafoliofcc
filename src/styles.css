@@ -1,0 +1,12 @@
+/*
+*::-webkit-scrollbar{
+    width:10px;
+    border:2px solid black;
+    background: rgb(45, 26, 110);
+}
+*::-webkit-scrollbar-thumb{
+ 
+    border-radius:32px;
+    background:rgb(238, 149, 48);  ;
+}
+*/

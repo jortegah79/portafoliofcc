@@ -1,19 +1,22 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { PrincipalRoutingModule } from './principal-routing.module';
 import { ComponentsModule } from '../components/components.module';
+import { Router, RouterLink, RouterModule } from '@angular/router';
+import { PrincipalComponent } from './principal.component';
 
 
 
 @NgModule({
   declarations: [  
-    
+    PrincipalComponent, 
   ],
   imports: [
     CommonModule,
-    PrincipalRoutingModule,
-    ComponentsModule
+    ComponentsModule,
+    RouterModule
+  ],providers:[
+    Router,RouterLink
   ]
 })
 export class PrincipalModule { }

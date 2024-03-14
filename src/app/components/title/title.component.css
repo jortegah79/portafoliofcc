@@ -1,6 +1,6 @@
 
 .nom-tiempo {
-  color: rgb(24, 113, 230);
+  color: rgb(145, 184, 236);
   font-size: 44px;
   animation:forwards;
   animation-duration: 4s;
@@ -59,7 +59,7 @@
   }
 
   95% {
-    color: rgb(24, 113, 230, 1);
+    color: rgb(100, 230, 253);
   }
 
   100% {

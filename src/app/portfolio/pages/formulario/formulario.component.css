@@ -1,0 +1,25 @@
+
+.cuestionario {
+    color: #fff;
+   
+    background-image: url("https://besthqwallpapers.com/Uploads/25-1-2018/38372/thumb2-4k-night-forest-material-design-art.jpg");
+    background-size: cover;
+    min-height: 80vh;
+    display:flex;
+    justify-content:center;
+    padding-top: 5vh;
+}
+
+#survey-form {
+    width: 90%;
+    max-width:400px;
+    height:600px;
+    padding:20px;
+    margin:20px auto 0px ;
+    box-shadow: 0 0 15px 1px #aaaaaa;
+    border-radius: 15px;
+    background-color: #17075aa2;
+    border: 1px solid #aaaaaa;
+    display:flex;
+    flex-direction: column;
+}
