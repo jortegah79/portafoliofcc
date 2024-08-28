@@ -1,0 +1,12 @@
+<div class="container-fluid background-skills py-4">
+  <div class="container">
+    <h3 class="text-start  mb-3">Tengo habilidades en ...</h3>
+    <div class="row gap-1">
+
+      @for (tec of tecnologias; track $index) {
+      <img class="d-block col-12 col-md-1 my-4  tecnologia shadow-lg" [src]="tec.url">
+      }
+    </div>
+  </div>
+
+</div>

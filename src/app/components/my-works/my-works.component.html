@@ -1,0 +1,15 @@
+<div class="p-md-3  fondo-works">
+  <div class="container ">
+    <div class="row   ">
+      <h3 class="col-12 my-4 mx-md-5 mx-4">Mis trabajos</h3>
+      <p class="mx-4 ">Estos son algunos de los trabajos profesionales y personales en los que he participado.</p>
+      <!-- <div class="col-12 col-md-6 mt-4" *ngFor="let prod of proyectos"> -->
+      @for (prod of proyectos; track $index) {
+      <div class=" col-12 col-md-6 mt-4">
+        <proyecto [proyecto]="prod"></proyecto>
+      </div>
+      }
+      <!-- </div> -->
+    </div>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+.fondo-hero{
+  background: rgb(0, 0, 0);  
+  min-height: 100vh;  
+  color: white;
+}
+img.img-hero{
+  max-width: 400px;
+  width:95vw;
+}

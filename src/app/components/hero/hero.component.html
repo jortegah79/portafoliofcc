@@ -1,0 +1,54 @@
+<div class="fondo-hero container-fluid ">
+    <div class="container py-2 py-md-5">
+
+
+        <div class="d-flex justify-content-center align-items-center mt-md-5 mb-4">
+            <img class="text-center rounded-5  img-hero" src="assets/img/desarrollador.jpeg" />
+        </div>
+
+        <div class="col text-center">
+            <div class="d-flex-column">
+                <div class="col">
+                    <texto-component class="mt-4" title="{{title1}}"></texto-component>
+                    <texto-component class="mt-1" texto="{{texto1}}"></texto-component>
+                </div>
+                <div class="col">
+                    <title-component></title-component>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col row">
+                <div class="col-12 col-md-6 mb-5 animate__animated animate__lightSpeedInLeft animate__delay_4s animate__slow"
+                    id="first">
+                    <texto-component class="mt-4 text-center text-md-start" title="{{title2}}"></texto-component>
+                    <texto-component class="mt-1" texto="{{texto2}}"></texto-component>
+                </div>
+                <div class="col-12 col-md-6 "></div>
+            </div>
+
+            @defer(on viewport()){
+            <div class="col-12 row mb-5 pt-2">
+                <div class="col-12 col-md-3"></div>
+                <div class="col-12 col-md-6 animate__animated animate__lightSpeedInLeft animate__delay_5s animate__slow" id="second">
+                    <texto-component texto="{{texto3}}"></texto-component>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+
+            }@placeholder() {
+            <span>...</span>
+
+            }
+            @defer( on viewport()){
+            <div class="col-12 row">
+                <div class="col-12 col-md-6"></div>
+                <div class="col-12 col-md-6 animate__animated animate__lightSpeedInLeft animate__delay_6s animate__slow" id="third"> <texto-component texto="{{texto4}}"></texto-component></div>
+            </div>
+            }@placeholder {
+            <span></span>
+            }
+        </div>
+
+    </div>
+</div>
