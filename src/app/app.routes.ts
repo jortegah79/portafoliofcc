@@ -18,17 +18,17 @@ export const routes: Routes = [
             {
                 path: "",
                 pathMatch: 'full',
-                redirectTo: "portfolio"
+                redirectTo: "/portfolio"
             },
             { 
-                path: '**', 
-                redirectTo: "portfolio" 
+                path: "**", 
+                redirectTo: "/portfolio" 
             }
         ]
     },
     {
         path: "**",
-        redirectTo: ""
+        redirectTo: "/"
     }];
 
 
