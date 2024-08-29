@@ -22,13 +22,13 @@ export const routes: Routes = [
             },
             { 
                 path: "**", 
-                redirectTo: "/portfolio" 
+                redirectTo: "/" 
             }
         ]
     },
     {
         path: "**",
-        redirectTo: "/"
+        redirectTo: ""
     }];
 
 
