@@ -8,8 +8,7 @@ export const routes: Routes = [
         children: [
             {
                 path: "portfolio",
-                loadComponent: () => import('./pages/portfolio/portfolio.component').then(p => p.PortfolioComponent),
-               
+                loadComponent: () => import('./pages/portfolio/portfolio.component').then(p => p.PortfolioComponent)
             },
             {
                 path: "contact",
@@ -18,12 +17,12 @@ export const routes: Routes = [
             {
                 path: "",
                 pathMatch: 'full',
-                redirectTo: "/portfolio"
+                redirectTo: "portfolio"
             },
-            { 
-                path: "**", 
-                redirectTo: "/" 
-            }
+            {
+                path: "**",
+                redirectTo: ""
+            },
         ]
     },
     {
