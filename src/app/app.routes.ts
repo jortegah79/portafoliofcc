@@ -8,21 +8,22 @@ export const routes: Routes = [
         children: [
             {
                 path: "portfolio",
-                loadComponent: () => import('./pages/portfolio/portfolio.component').then(p => p.PortfolioComponent)
+                loadComponent: () => import('./pages/portfolio/portfolio.component').then(p => p.PortfolioComponent),
+               
             },
             {
                 path: "contact",
                 loadComponent: () => import('./pages/contact/contact.component').then(p => p.ContactComponent)
             },
             {
-                path: "**",
-                redirectTo: "portfolio"
-            },
-            {
                 path: "",
                 pathMatch: 'full',
                 redirectTo: "portfolio"
             },
+            { 
+                path: '**', 
+                redirectTo: "portfolio" 
+            }
         ]
     },
     {
