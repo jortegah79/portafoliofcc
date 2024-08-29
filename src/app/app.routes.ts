@@ -15,12 +15,12 @@ export const routes: Routes = [
                 loadComponent: () => import('./pages/contact/contact.component').then(p => p.ContactComponent)
             },
             {
-                path: "",
-                pathMatch: 'full',
+                path: "**",
                 redirectTo: "portfolio"
             },
             {
-                path: "**",
+                path: "",
+                pathMatch: 'full',
                 redirectTo: "portfolio"
             },
         ]
