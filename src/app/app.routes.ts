@@ -3,17 +3,17 @@ import { TemplateComponent } from './pages/template/template.component';
 
 export const routes: Routes = [
     {
-        path:"",
-        component:TemplateComponent,
-        children:[
+        path: "",
+        component: TemplateComponent,
+        children: [
             {
                 path: "portfolio",
                 loadComponent: () => import('./pages/portfolio/portfolio.component').then(p => p.PortfolioComponent)
             },
             {
                 path: "contact",
-                loadComponent: () => import('./pages/contact/contact.component').then(p =>p.ContactComponent )
-            },           
+                loadComponent: () => import('./pages/contact/contact.component').then(p => p.ContactComponent)
+            },
             {
                 path: "",
                 pathMatch: 'full',
@@ -24,6 +24,10 @@ export const routes: Routes = [
                 redirectTo: "portfolio"
             },
         ]
+    },
+    {
+        path: "**",
+        redirectTo: ""
     }];
-   
+
 
