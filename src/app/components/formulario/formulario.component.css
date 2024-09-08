@@ -2,8 +2,9 @@
 .cuestionario {
     color: #fff;
    
-    background-image: url("https://besthqwallpapers.com/Uploads/25-1-2018/38372/thumb2-4k-night-forest-material-design-art.jpg");
-    background-size: cover;
+    background-image: url("/assets/img/toForm.webp");
+    background-size: center;
+    background-size: 100%;
     min-height: 80vh;
     display:flex;
     justify-content:center;
