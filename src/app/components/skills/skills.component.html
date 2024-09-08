@@ -1,10 +1,10 @@
 <div class="container-fluid background-skills py-4">
   <div class="container">
     <h3 class="text-start  mb-3">Tengo habilidades en ...</h3>
-    <div class="row d-flex justify-content-center">
+    <div class="row d-flex justify-content-center justify-content-md-between column-gap-5">
 
-      @for (tec of tecnologias; track $index) {
-      <img class="d-block col-2 m-auto col-md-1 mx-2 mx-md-5 my-2 tecnologia shadow-lg" [src]="tec.url">
+      @for (tec of tecnologias; track $index) {      
+      <img class="d-block col-2 m-auto col-md-1 mx-auto  my-2 tecnologia shadow"  [src]="tec.url" alt="{{tec.title}}">
       }
     </div>
   </div>
