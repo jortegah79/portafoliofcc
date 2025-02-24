@@ -2,7 +2,7 @@
 .cuestionario {
     color: #fff;
    
-    background-image: url("/assets/img/toForm.webp");
+    background-image: url("./assets/img/toForm.webp");
     background-size: center;
     background-size: 100%;
     min-height: 80vh;
