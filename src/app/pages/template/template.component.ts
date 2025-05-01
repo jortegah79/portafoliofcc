@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { NavbarComponent } from "../../components/navbar/navbar.component";
-import { IonRouterOutlet } from "@ionic/angular/standalone";
 import { RouterModule } from '@angular/router';
 import { FooterComponent } from '../../components/footer/footer.component';
 
