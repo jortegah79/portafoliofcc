@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { TextoComponent } from "../texto/texto.component";
 import { TitleComponent } from "../title/title.component";
-import 'animate.css';
 import { CommonModule } from '@angular/common';
 
 
