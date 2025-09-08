@@ -32,10 +32,10 @@ export class MyWorksComponent {
       text:"Esta utilidad de mapas hace uso de la biblioteca Leaflet para mostrar y marcar posiciones en un mapa en Angular 14." 
     },
     { 
-      url: 'https://jortegah79.github.io/calendarApp/', 
-      name: 'Calendar-app', 
-      src: 'assets/img/calendar_app.png',
-      text:"Backend montado en Nestjs y frontend hecho con React y Redux toolkit." 
+      url: 'https://jortegah79.github.io/enjoy/', 
+      name: 'Enjoy', 
+      src: 'assets/img/enjoy.png',
+      text:"Pwa en Angular 20 con señales, y testing con actualización de datos y mapa.Usando Tailwind css" 
     },
     { 
       url: 'https://jortegah79.github.io/pipesApp/', 
