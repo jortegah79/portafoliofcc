@@ -9,7 +9,6 @@ import { Component, Input } from '@angular/core';
 export class TitleComponent {
 @Input() titulo="";
 @Input() subtitulo="";
-//titulo="Me llamo ";
-//subtitulo="... y soy Desarrollador Web.";
+
 
 }

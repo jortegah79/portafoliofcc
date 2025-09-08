@@ -17,11 +17,11 @@ export class HeroComponent {
   texto1 = `Mi nombre es ...`;
 
   title2 = 'Soy desarrollador Web';
-  texto2 = "Desde mis inicios en el desarrollo, trato de aplicar soluciones a problemas concretos, tanto en la parte del backend como en la de frontend, intentando aportar cada día un paso más y manteniendo la calidad y legibilidad del código. ";
+  texto2 = "Desarrollo soluciones para problemas reales que abarcan paneles de control, gestión de procesos y usuarios o tareas programadas en el backend. También incluye soluciones en la usabilidad y experiencia de usuario en el frontend, tanto en apps, como en pwas o en aplicaciones moviles.";
 
   title3 = "Experiéncia";
   texto3 = "Durante éste tiempo he trabajado para la consultora Clickame S.L, en la que he realizado aplicaciones de soporte de datos, he creado una plataforma de ticketing,control de accesos y lista de invitados entre otras cosas.";
-  texto4 = "Además he realizado actualizaciones de aplicaciones de movil en ionic- Angular y en flutter. Dentro del mundo movil, he creado apis en Laravel y PhpSlim y aplicaciones en Ionic para Ios y android.";
+  texto4 = "He trabajado proyectos en diferentes lenguajes de programación tanto en backend, en php, Laravel, Php SLim o Nestjs, como en frontend, en Angular, Ionic, React, flutter, Bootstrap, Tailwind, entre otros. Mis lenguajes de preferencia son PHP y Typescript.";
 
 
 }

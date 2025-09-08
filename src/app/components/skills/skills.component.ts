@@ -15,7 +15,7 @@ export class SkillsComponent {
  
   tecnologias: urlFile[] = [
     { url: "assets/img/php.png",title:"Php 8.3^" },
-    { url: "assets/img/laravel.png",title:'Laravel 10^' },
+    { url: "assets/img/laravel.png",title:'Laravel 12' },
     { url: "assets/img/phpslim.png",title:'Php Slim 4' },
     { url: "assets/img/nestjs.png",title:"Nest js" },
     { url: "assets/img/nrgx.svg",title:'Gestión de estados Ngrx Signals' },    
@@ -23,9 +23,9 @@ export class SkillsComponent {
     { url: "assets/img/tailwind.png",title:'Tailwind' },
     { url: "assets/img/javascript.png",title:'Javascript' },
     { url: "assets/img/typescript.png",title:'Typescript' },
-    { url: "assets/img/angular.gif",title:"Angular 18" },
+    { url: "assets/img/angular.gif",title:"Angular 20" },
     { url: "assets/img/ionic.png",title:'Ionic' },
-    { url: "assets/img/react.svg",title:'React' },
+    { url: "assets/img/react.svg",title:'React 17' },
     { url: "assets/img/bootstrap.jpeg",title:'Bootstrap 5.3' },
     { url: "assets/img/flutter.png",title:'Flutter 3^' },
     { url: "assets/img/github.png",title:'Github' },
