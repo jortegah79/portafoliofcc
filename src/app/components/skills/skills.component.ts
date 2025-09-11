@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { urlFile } from '../../interfaces/urlFile.interface';
 import { CommonModule } from '@angular/common';
-import { TextoComponent } from "../texto/texto.component";
 
 @Component({
   standalone:true,

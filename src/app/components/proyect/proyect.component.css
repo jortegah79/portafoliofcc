@@ -3,6 +3,7 @@
 
 .card {
   width: 70%;
+  max-width: 400px;
   aspect-ratio: 3/2;
   perspective: 1000px;
   margin: auto;
@@ -52,5 +53,12 @@
   }
   .card:hover .back{
     transform:rotateY(180deg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 90%;
+    max-width: 300px;
   }
 }

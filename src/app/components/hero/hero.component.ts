@@ -17,11 +17,13 @@ export class HeroComponent {
   texto1 = `Mi nombre es ...`;
 
   title2 = 'Soy desarrollador Web';
-  texto2 = "Desarrollo soluciones para problemas reales que abarcan paneles de control, gestión de procesos y usuarios o tareas programadas en el backend. También incluye soluciones en la usabilidad y experiencia de usuario en el frontend, tanto en apps, como en pwas o en aplicaciones moviles.";
+  texto2 = "Desarrollo soluciones para problemas reales que abarcan paneles de control, gestión de procesos y usuarios, tareas programadas, gestión de bases de datos, entre otras soluciones en el backend. También incluyo soluciones en la usabilidad y experiencia de usuario en el frontend, tanto en apps, como en PWAs o en aplicaciones móviles.";
 
   title3 = "Experiéncia";
-  texto3 = "Durante éste tiempo he trabajado para la consultora Clickame S.L, en la que he realizado aplicaciones de soporte de datos, he creado una plataforma de ticketing,control de accesos y lista de invitados entre otras cosas.";
-  texto4 = "He trabajado proyectos en diferentes lenguajes de programación tanto en backend, en php, Laravel, Php SLim o Nestjs, como en frontend, en Angular, Ionic, React, flutter, Bootstrap, Tailwind, entre otros. Mis lenguajes de preferencia son PHP y Typescript.";
+  texto3 = "En mi experiencia laboral trabajando para Clickame S.L., he realizado aplicaciones de soporte de datos, he aportado valor generando una plataforma de ticketing con gestión de accesos y listas de invitados, aplicaciones para el control de turnos de riego, sincronizadores de datos entre aplicativos, pudiendo aprender de cada proyecto y entender la integración entre modelo de negocio y la aplicación concreta de soluciones necesarias.";
+  texto4 = "He trabajado en proyectos en diferentes lenguajes de programación tanto en backend, en PHP, Laravel, PHP Slim o NestJS, como en frontend, en Angular, Ionic, React, Flutter, Bootstrap, Tailwind, entre otros. Mis lenguajes de preferencia son PHP y TypeScript. He trabajado con bases de datos como MySQL, SQLite, PostgreSQL, entre otras.";
 
+
+  
 
 }
