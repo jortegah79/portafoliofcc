@@ -1,17 +1,15 @@
+<a class="text-decoration-none " [href]="proyecto.url">
+    <div class="flip-card">
+        <div class="card">
+            <div class="front" style="background-image: url('{{proyecto.src}}');background-position:center;background-size: cover;"></div>
+            <div class="back">
+                <div class="row flex justify-content-center p-4">
+                    <h4 class="text-center ">{{proyecto.name}}</h4>
+                    <p class="p-3 ps-5"> {{proyecto.text}}</p>
 
-<a class="text-decoration-none "[href]="proyecto.url">
-  <div class="flip-card">
-    <div class="card">
-      <div class="front"
-        style="background-image: url('{{proyecto.src}}');background-position:center;background-size: cover;"></div>
-      <div class="back">
-        <div class="row">
-          <h4 class="text-center">{{proyecto.name}}</h4>
-          <p class="px-5 py-1"> {{proyecto.text}}</p>
-         
-        </div> 
-      </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <p class="text-center text-white mt-3">{{proyecto.name}}</p>
+    <p class="text-center text-white mt-3 h4">{{proyecto.name}}</p>
 </a>

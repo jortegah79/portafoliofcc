@@ -19,6 +19,12 @@ export class MyWorksComponent {
       src: 'assets/img/ticketandmeet.png',
       text: "He formado parte activa en la contrucción de la plataforma de ticketing, gestión de listas de invitados, control de accesos y muchas otras cosas..." 
     },
+      { 
+      url: 'https://www.diskoverapp.com', 
+      name: `Diskover`, 
+      src: 'assets/img/diskover.png',
+      text:"Diskover es una aplicación para los amantes de disfrutar de su tiempo. Gestionada con Nextjs y formando una pwa."
+    },
     { 
       url: 'https://newsapp-d5da4.web.app', 
       name: `John's News`, 
@@ -26,16 +32,16 @@ export class MyWorksComponent {
       text:"Aplicación para practicar Ionic y pwa, que obtiene datos desde una api y los gestiona mostrando una interfaz de usuario cómoda."
     },
     { 
-      url: 'https://jortegah79.github.io/mapsAPp', 
-      name: 'Mapas', 
-      src: 'assets/img/maps.png',
-      text:"Esta utilidad de mapas hace uso de la biblioteca Leaflet para mostrar y marcar posiciones en un mapa en Angular 14." 
-    },
-    { 
       url: 'https://jortegah79.github.io/enjoy/', 
       name: 'Enjoy', 
       src: 'assets/img/enjoy.png',
       text:"Pwa en Angular 20 con señales, y testing con actualización de datos y mapa.Usando Tailwind css" 
+    },
+    { 
+      url: 'https://jortegah79.github.io/mapsAPp', 
+      name: 'Mapas', 
+      src: 'assets/img/maps.png',
+      text:"Esta utilidad de mapas hace uso de la biblioteca Leaflet para mostrar y marcar posiciones en un mapa en Angular 14." 
     },
     { 
       url: 'https://jortegah79.github.io/pipesApp/', 

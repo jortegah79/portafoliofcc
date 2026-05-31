@@ -8,18 +8,18 @@ import { Ruta } from '../../interfaces/ruta.interface';
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css'],
-  imports:[RouterLink,CommonModule],
+  imports:[RouterLink,CommonModule,RouterLinkActive],
 
 })
 export class NavbarComponent {
  
   rutas: Ruta[] = [{
     title: "Inicio",
-    path: "portfolio"
+    path: "/portfolio"
   },
   {
     title: "Contacto",
-    path: "contact"
+    path: "/contact"
   }];
 
 

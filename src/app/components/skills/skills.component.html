@@ -1,10 +1,15 @@
-<div class=" background-skills p-4">
+<div class=" background-skills flex justify-content-center  p-4">
+    <div class="row justify-content-center">
+        <h3 class="col-11 col-md-9 text-start  mb-3">Tengo habilidades en ...</h3>
 
-    <h3 class="text-start  mb-3">Tengo habilidades en ...</h3>
-    <div class="row column-gap-5">
+    </div>
+    <div class="d-flex justify-content-center">
+        <div class="row col-12 col-md-9 ">
+            <div class="row gap-3 gap-md-5">
 
-      @for (tec of tecnologias; track $index) {      
-      <img class="d-block col-2 m-auto col-md-1 mx-auto  my-2 tecnologia shadow"  [src]="tec.url" alt="{{tec.title}}">
-      }
+                @for (tec of tecnologias; track $index) {
+                <img class="d-block col-2 m-auto col-md-1 mx-auto  my-2 tecnologia shadow" [src]="tec.url" alt="{{tec.title}}"> }
+            </div>
+        </div>
     </div>
 </div>

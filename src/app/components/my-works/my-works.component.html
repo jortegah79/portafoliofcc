@@ -1,20 +1,29 @@
-<div class="p-3  fondo-works ">
-    <div class="row   ">
-      <div class="col-12">
-        <h3 class=" my-2 mx-md-5 mx-2">Mis trabajos</h3>
-      </div>
-      <div class="col-12  mb-4">
-        <span class="text-wrap  pb-4 px-2">
-          Estos son algunos de los trabajos profesionales y personales en los que he participado.
+<div class="fondo-works  p-4">
+    <div class="d-flex justify-content-center ">
 
-        </span>
-      </div>
-    </div>
-    <div class="row flex-wrap justify-content-center">
-      @for (prod of proyectos; track $index) {
-        <div class="col-12 col-md-6 mb-2">
-          <proyecto [proyecto]="prod"></proyecto>
+
+        <div class="col-12 col-md-9 mx-auto ">
+
+            <div class="">
+
+                <h3 class="">Mis trabajos</h3>
+                <span class="text-wrap  pt-2">
+            Estos son algunos de los trabajos profesionales y personales en los que he participado.            
+               </span>
+            </div>
+
+
+
+            <div class="  row  mt-4 gap-3 gap-md-5">
+                @for (prod of proyectos; track $index) {
+                <div class="col-11 col-md-5">
+                    <div class="">
+                        <proyecto [proyecto]="prod"></proyecto>
+                    </div>
+                </div>
+                }
+            </div>
+
         </div>
-      }
     </div>
 </div>
