@@ -20,7 +20,7 @@ export class MyWorksComponent {
       text: "He formado parte activa en la contrucción de la plataforma de ticketing, gestión de listas de invitados, control de accesos y muchas otras cosas..." 
     },
       { 
-      url: 'https://www.diskoverapp.com', 
+      url: 'https://diskoverapp.com', 
       name: `Diskover`, 
       src: 'assets/img/diskover.png',
       text:"Diskover es una aplicación para los amantes de disfrutar de su tiempo. Gestionada con Nextjs y formando una pwa."
